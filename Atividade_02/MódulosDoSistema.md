@@ -1,6 +1,6 @@
 ## Subsistemas
 
 * Agenda;
-* Sistema financeiro;
+* Sistema Financeiro;
 * Gestão de Pessoas;
 * Atendimento Clínico.

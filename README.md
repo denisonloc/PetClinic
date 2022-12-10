@@ -1,4 +1,4 @@
-# PetClinic    ![logo](/logo.png) 
+# PetClinic    ![logo](/img/logo.png) 
 
 Repositório feito para guardar os arquivos e informações da Análise e Projeto de um App para uma PetClinic.
 
