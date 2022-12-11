@@ -1,10 +1,10 @@
 | **Classes** |                                              **Atributos**                                              | **Métodos**                                                |   |   |
 |:-----------:|:-------------------------------------------------------------------------------------------------------:|------------------------------------------------------------|---|---|
-| Cliente     | nome: String<br>cpf: int<br>email: String<br>telefone: Telefone<br>endereco: Endereco<br>animal: Animal | fazerLogin()<br>redefinirSenha()<br>consultarHistórico()   |   |   |
+| Tutor     | nome: String<br>cpf: int<br>email: String<br>telefone: Telefone<br>endereco: Endereco<br>animal: Animal | fazerLogin()<br>redefinirSenha()<br>consultarHistórico()   |   |   |
 | Funcionário | nome: String<br>cpf: int<br>email: String<br>telefone: Telefone<br>endereco: Endereco<br>cargo: String  | fazerLogin()<br>redefinirSenha()<br>gerenciarFolha()<br>gerenciarAtendimento()<br>gerenciarCaixa()<br>cadastrarMedicamento() |   |   |
 | Veterinário | nome: String<br>cpf: int<br>email: String<br>telefone: Telefone<br>endereco: Endereco<br>crmv: int      | fazerLogin()<br>redefinirSenha()<br>consultarHistorico()   |   |   |
 | Dono da clinica | nome: String<br>cpf: int<br>email: String<br>telefone: Telefone<br>endereco: Endereco<br>           | fazerLogin()<br>redefinirSenha()<br>gerenciarUsuarios()    |   |   |
-| Animal      | nome: String<br>idade: int<br>raca: String<br>cor: String<br>dono: Cliente                              |                                                            |   |   |
-| Consulta    | cliente: Cliente<br>animal: Animal<br>veterinário: Veterinário<br>data: Date<br>prontuario: String      | gerenciarHistorico()                                       |   |   |
+| Animal      | nome: String<br>idade: int<br>peso: float<br>raca: String<br>cor: String<br>tutor: Tutor                              |                                                            |   |   |
+| Consulta    | tutor: Tutor<br>animal: Animal<br>veterinário: Veterinário<br>data: Date<br>tipo: String<br>prontuario: String      | gerenciarHistorico()                       |   |   |
 | Telefone    | ddd: int<br>prefixo: int<br>sufixo: int                                                                 |                                                            |   |   |
 | Endereco    | rua: String<br>numero: int<br>bairro: String<br>cep: String                                             |                                                            |   |   |
